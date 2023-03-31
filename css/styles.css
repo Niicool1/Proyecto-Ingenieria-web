@@ -41,7 +41,8 @@ button{
     
     border-radius: 6px;
     border: 1px solid rgb(38, 50, 56);
-
+    cursor: pointer;
+    padding: 5px;
 
 }
 
@@ -59,4 +60,23 @@ input{
     margin-bottom: 10px;
     text-size-adjust: 100px;
 
+}
+
+.form-link{
+    text-align: center;
+    
+
+}
+.form-link span{
+    
+    font-size: 14px;
+    font-weight: 400;
+    
+    
+}
+.form a {
+    color: #0277BD;
+    text-decoration: none;
+    font-size: 14px;
+    
 }

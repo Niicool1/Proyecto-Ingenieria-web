@@ -1,4 +1,4 @@
-function validar(rut);
+
 
 
 document.addEventListener("DOMContentLoaded",function(){
