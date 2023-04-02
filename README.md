@@ -30,6 +30,8 @@ EP1.1: Análisis de funcionalidades:
     8. Dashboard de información nutricional y física.
 
 EP1.2: Prototipando e identificación de todas las interfaces. Para esto harán uso de herramientas digitales algunas como draw.io, Figma.
+    
+    El prototipo de las interfaces fue realizado en draw.io y se encuentra en la carpeta: prototipo interfaces
 
 EP1.3: Maquetación de las interfaces en HTML5+ CSS3 (mínimo 7 interfaces)
 
