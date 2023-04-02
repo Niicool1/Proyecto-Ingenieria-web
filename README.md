@@ -3,6 +3,9 @@
 Nuestro proyecto consiste en una aplicación web que pueda ayudar al cuidado de la salud y alimentación 
 saludable.
 
+ONU: Garantizar una vida sana y promover el bienestar para todos en todas las
+edades
+
 
     Integrantes: 
              
