@@ -27,11 +27,13 @@
     background: rgb(245, 245, 245);
 }
 
-header{
-    font-size: 28px;
-    font-weight: 600;
+h1{
+    font-size: 16px;
+    font-weight: 200;
     color: black;
-    text-align: center;
+    text-align: left;
+    margin:20px;
+
 }
 
 button{
@@ -80,3 +82,51 @@ input{
     font-size: 14px;
     
 }
+ul#imagenInicio {
+    display: flex;
+    list-style: none;
+   
+   
+    
+}
+
+main{
+    background-color: gray;
+}
+
+ul#imagenInicio li{
+    padding: 10px;
+
+
+    
+}
+ul#imagenInicio li div {
+    width: auto;
+    height: auto;
+    
+}
+
+ul#imagenInicio li div img{
+    width: auto;
+    height: 320px;
+}
+
+ul#footer2 {
+    display:flex;
+    list-style: none;
+
+}
+ul#footer2 li {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+ul#menuPrincipal li a{
+    background-color: rgb(188, 207, 223);
+    margin:10px;
+    border-radius:0.15cm;
+}
+
+
+
