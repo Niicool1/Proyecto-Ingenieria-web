@@ -134,6 +134,33 @@ li#iniciarSesion {
     border-radius:0.15cm;
     padding:7px;
 }
+ul#alimento {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+
+ul#alimento li div img{
+    width: auto;
+    height: 320px;
+}
+
+ul#recomendacion {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+  
+}
+
+ul#recomendacion li{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius:1cm ;
+    font-weight: 600;
+    width:16%;
+}
+
 
 
 
