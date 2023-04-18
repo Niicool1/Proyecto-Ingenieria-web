@@ -1,9 +1,14 @@
+$color-main: rgb(245, 245, 245);
+$color-blackmain:rgb(38, 50, 56);
+
 *{
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
+
 }
 
 .container{
@@ -23,8 +28,8 @@
     background: rgb(245, 245, 245);
 }
 
-h1{
-    font-size: 16px;
+.logo{
+    font-size: 28px;
     font-weight: 200;
     color: black;
     text-align: left;
@@ -62,8 +67,7 @@ input{
 
 .form-link{
     text-align: center;
-    margin-top: 6px;
-    
+    margin-top: 7px;
 
 }
 .form-link span{
@@ -71,10 +75,46 @@ input{
     font-size: 14px;
     font-weight: 400;
     
+    
 }
 .form a {
     color: #0277BD;
     text-decoration: none;
     font-size: 14px;
     
+}
+.titulo-form{
+
+    position: relative;
+    font-size: larger;
+    text-align: center;
+    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    
+}
+.main a{
+    margin-right: 25px;
+    margin-left: 10px;
+    color: var($color-main);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+.user i{
+    color: var($color-main);
+    font-size: 28px;
+
+}
+
+footer{
+    background-color:$color-blackmain ;
 }
