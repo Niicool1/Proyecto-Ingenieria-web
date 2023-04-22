@@ -145,21 +145,31 @@ ul#alimento li div img{
     height: 320px;
 }
 
-ul#recomendacion {
-    padding: 10px;
-    margin: 10px;
+div#recomendacion {
     list-style: none;
-  
+
 }
 
-ul#recomendacion li{
+div#recomendacion li{
     background-color: white;
     padding: 10px;
-    margin: 10px;
+    margin: 25px;
     border-radius:1cm ;
     font-weight: 600;
     width:16%;
+
 }
+
+.infoCalorias {
+    background-color: white;
+    border-radius: 0.2cm;
+    padding: 20px;
+}
+
+.infoCalorias p {
+    padding:20px;
+}
+
 
 
 
