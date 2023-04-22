@@ -127,7 +127,7 @@ ul#menuPrincipal li a{
     margin:10px;
     border-radius:0.15cm;
 }
-li#iniciarSesion {
+div#miCuenta {
     list-style: none;
     background-color: rgb(188, 207, 223);
     margin:10px;
