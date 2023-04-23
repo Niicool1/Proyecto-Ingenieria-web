@@ -202,6 +202,30 @@ div#dashboardPerfil {
     margin: 50px;
 }
 
+ul#infoAlimento {
+    display: flex;
+    list-style: none;
+}
+
+ul#infoAlimento li div img{
+    width: auto;
+    height: 380px;
+
+}
+
+div#informacion {
+   list-style: none;
+
+}
+
+div#informacion li{
+    background-color: white;
+    padding: 10px;
+    border-radius:1cm ;
+    font-weight: 600;
+    width:16%;
+
+}
 
 
 
