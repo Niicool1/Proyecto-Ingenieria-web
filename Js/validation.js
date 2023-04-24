@@ -1,3 +1,4 @@
+
 let email = document.getElementById('email');
 let rut = document.getElementById('rut');
 let contrasenya = document.getElementById('contrasenya');
@@ -18,14 +19,14 @@ form.addEventListener('submit', function(evento){
     mensajeError.push('El correo introducido no es valido');
   }
   if (rut.value.length !== 9 ){
-    mensajeError.push('Introduzca 9 caracteres en el RUT');
+    mensajeError.push('Introduzca 9 dígitos en el RUT');
   }
   if (rut.value.match(numbers)){  
   }else{
     mensajeError.push('El RUT solo admite números');
   }
   if(contrasenya.value.length <= 8){
-    mensajeError.push('La contraseña debe ser de almenos 8 dígitos');
+    mensajeError.push('La contraseña debe ser de almenos 8 caracteres');
   }
 
   if(contrasenya.value != recontrasenya.value){

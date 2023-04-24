@@ -1,10 +1,12 @@
 $(function(){
 
-    //$(".alert").hide();
+    $(".alert").hide();
 
+    $(".btn").click(function(){
+        $(".alert").show();
 
-
-
+    });
+    
 
 });
 
