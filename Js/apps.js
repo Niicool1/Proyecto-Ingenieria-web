@@ -1,7 +1,5 @@
 
 
-
-document.addEventListener("DOMContentLoaded",function(){
     document.getElementById("formulario").addEventListener("submit",function(evento){
 
         let email=document.getElementById("email").value;
@@ -25,7 +23,7 @@ document.addEventListener("DOMContentLoaded",function(){
    
         evento.preventDefault();
     });
-});
+
 
 
 function validar(rut){

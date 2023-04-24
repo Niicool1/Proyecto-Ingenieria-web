@@ -30,6 +30,7 @@ body{background-color: $color-fondo !important;}
     justify-content: center; 
 
     .form{
+        
         @include botones;
         
         .titulo-form{
