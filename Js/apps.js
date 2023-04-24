@@ -6,7 +6,20 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 
     form.addEventListener('submit', function(evento){
-        evento.preventDefault();
 
-    });
+        let mensajeError = [];
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+        if (email.value.match(mailformat)){  
+        }else{
+          mensajeError.push('N');
+        }
+        if(contrasenya.value.length <= 8){
+            mensajeError.push('N');
+          }
+        if(mensajeError.length > 0){
+            evento.preventDefault();
+        }
+          
+        });
 });
